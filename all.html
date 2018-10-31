@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewreport" content="width-device-width, initial-scale=1 , shrink-to-fit=no">
+	<title>Alertas</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+	<h1></h1>
+
+	<!-- novo item -->
+	<div class="container border px-md-5 py-3">
+		<div class="row">
+			<div class="alert alert-primary-alert-dismissible fade show" role="alert"><button class="close" data-dismiss="alert" aria-label="Fechar"><span aria-hidden="true">&times;</span></button>Este é um alert</div>
+			<div class="alert alert-info col-12" role="alert">Este é outro alert</div>
+			<div class="alert alert-dark col-6" role="alert">Este é outro alert</div>
+		</div>
+
+	</div>
+
+	<!-- novo item -->
+	<div class="container border px-md-5 py-3">
+		<h2 class="bg-danger col-6 text-center">Badge</h2>
+		<div class="row">
+			<div class="col-12">
+				<h1>Texto <span class="badge badge-secondary">Badge</span></h1>
+			</div>
+		</div>
+		<div class="row">
+			<button class="btn">Notificações (badge botão) 
+				<span class="badge badge-secondary">5</span>
+			</button>
+		</div>
+	</div>
+
+
+	<!-- novo item -->
+	<div class="container border px-md-5 py-3">
+		<h2 class="bg-danger col-6 text-center margin-5">BreadCrumb</h2>
+		<div class="row">
+			<div class="col-12">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item active">Breadcrumb</li>
+				</ol>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<!-- usa ol (lista ordenada qdo é secundário, q é o mais comum).
+				Quando é o menu principal, usa nav -->
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="#">Home</a></li>
+					<li class="breadcrumb-item"><a href="#">Biblioteca</a></li>
+					<li class="breadcrumb-item active">Livro</li>
+				</ol>
+				<nav class="breadcrumb">
+					<a href="#" class="breadcrumb-item">Home</a>
+					<a href="#" class="breadcrumb-item">Biblioteca</a>
+					<a href="#" class="breadcrumb-item">Livro</a>
+					<span class="breadcrumb-item active">Livro</span>
+				</nav>
+			</div>
+		</div>
+
+	</div>
+
+
+	<!-- novo item -->
+	<div class="container border px-md-5 py-3">
+		<h2 class="bg-danger col-6 text-center"> </h2>
+		<div class="row">
+			<div class="col-12">
+				<button class="btn btn-primary">Botão</button>
+				<a class="btn btn-secondary" role="button" href="#">Botão secundário</a>
+				<input type="button" class="btn btn-success btn-lg" value="Sucess">
+				<input type="submit" class="btn btn-danger btn-sm" value="Danger">
+				<input type="reset" class="btn btn-warning" value="Warning">
+				<input type="reset" class="btn btn-info" value="Info">
+				<input type="reset" class="btn btn-light" value="Light">
+				<input type="reset" class="btn btn-dark" value="Dark">
+				<input type="reset" class="btn btn-link" value="Link">
+			</div>
+			<div class="col-12">
+				<button class="btn btn-outline-primary">Botão</button>
+				<a class="btn btn-outline-secondary" role="button" href="#">Botão secundário</a>
+				<input type="button" class="btn btn-outline-success" value="Sucess">
+				<input type="submit" class="btn btn-outline-danger" value="Danger">
+				<input type="reset" class="btn btn-outline-warning" value="Warning">
+				<input type="reset" class="btn btn-outline-info" value="Info">
+				<input type="reset" class="btn btn-outline-light" value="Light">
+				<input type="reset" class="btn btn-outline-dark" value="Dark">
+				<input type="reset" class="btn btn-outline-link" value="Link">
+			</div>
+			<div class="col-12">
+				<button class="btn btn-outline-primary btn-block">Botão</button>
+			</div>
+			<div class="col-12">
+				<button class="btn btn-outline-primary">Normal</button>
+				<button class="btn btn-outline-primary active">Ativo</button>
+				<button class="btn btn-outline-primary" disabled>Inativo</button>
+				<button class="btn btn-outline-primary disabled" role="button" aria-disabled="true">Inativo</button>
+			</div>
+			<p>Grupo de botões</p>
+			<div class="col-12">
+				<div class="btn-group"role="group" aria-label="GrupoBotoes">
+					<button class="btn btn-primary">GRP Btn esquerdo</button>
+					<button class="btn btn-primary ">GRP Btn centro</button>
+					<button class="btn btn-primary" >GRP Btn direito</button>
+				</div>		
+			</div>
+			<div class="col-12">
+				<div class="btn-toolbar" role="toolbar" aria-label="Toolbar de Botões">
+					<div class="btn-group" role="group" aria-label="Grupo 1">
+						<button class="btn btn-primary">GRP Btn 1</button>
+						<button class="btn btn-primary ">GRP Btn 2</button>
+						<button class="btn btn-primary" >GRP Btn 3</button>
+					</div>
+					<div class="btn-group btn-group-sm" role="group" aria-label="Grupo 2">
+						<button class="btn btn-secondary">GRP Btn 4</button>
+						<button class="btn btn-secondary ">GRP Btn 5</button>
+						<button class="btn btn-secondary" >GRP Btn 6</button>
+					</div>	
+					<div class="btn-group btn-group-lg" role="group" aria-label="Grupo 3">
+						<button class="btn btn-secondary">GRP Btn 7</button>
+						<button class="btn btn-secondary ">GRP Btn 8</button>
+					</div>
+					<p>Grupo Vertical</p>
+					<div class="btn-group-vertical" role="group" aria-label="Grupo 1">
+						<button class="btn btn-primary">GRP Btn 1</button>
+						<button class="btn btn-primary ">GRP Btn 2</button>
+						<button class="btn btn-primary" >GRP Btn 3</button>
+					</div>	
+				</div>		
+			</div>
+		</div>
+
+	</div>
+
+	<!-- novo item -->
+	<div class="container border px-md-5 py-3">
+		<h2 class="bg-danger col-6 text-center"> </h2>
+		<div class="row">
+			<div class="col-12">
+
+				
+			</div>
+		</div>
+
+	</div>
+
+	<!-- novo item -->
+	<div class="container border px-md-5 py-3">
+		<h2 class="bg-danger col-6 text-center"> </h2>
+		<div class="row">
+			<div class="col-12">
+
+				
+			</div>
+		</div>
+
+	</div>
+
+	<!-- novo item -->
+	<div class="container border px-md-5 py-3">
+		<h2 class="bg-danger col-6 text-center"> </h2>
+		<div class="row">
+			<div class="col-12">
+
+				
+			</div>
+		</div>
+
+	</div>
+
+	<!-- novo item -->
+	<div class="container border px-md-5 py-3">
+		<h2 class="bg-danger col-6 text-center"> </h2>
+		<div class="row">
+			<div class="col-12">
+
+				
+			</div>
+		</div>
+
+	</div>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
